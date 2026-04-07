@@ -48,9 +48,6 @@ const translations = {
         'det-tech-label': 'Technologies Used:',
         'det-tech-adapt': 'Responsive Design (Flexbox/Grid)',
         'back-btn': '« Back to project list',
-
-        'modal-title': 'Contacts',
-        'modal-text': 'Email: georgiy_top@example.com'
     }
 };
 
