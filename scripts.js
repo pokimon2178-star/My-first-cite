@@ -23,9 +23,6 @@ const translations = {
         'det-tech-label': 'Использованные технологии:',
         'det-tech-adapt': 'Адаптивная верстка (Flexbox/Grid)',
         'back-btn': '« Назад к списку проектов',
-        // Модалка
-        'modal-title': 'Контакты',
-        'modal-text': 'Моя почта: georgiy_top@example.com'
     },
     'en': {
         'nav-about': 'About',
