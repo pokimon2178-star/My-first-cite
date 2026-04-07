@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои проекты | Гарибян Георгий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" data-i18n="nav-about">О себе</a>
+            <a href="projects.html" data-i18n="nav-projects">Проекты</a>
+        </nav>
+        <div class="controls">
+            <button id="lang-toggle">EN</button>
+            <button id="theme-toggle" data-i18n="theme-btn">Сменить тему</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 data-i18n="projects-title">Портфолио проектов</h1>
+        <div class="projects-grid">
+            <a href="details.html" class="project-card">
+                <h3 data-i18n="proj-1-title">Мой первый сайт</h3>
+                <p data-i18n="proj-1-desc">Учебный проект, созданный в рамках обучения в TOP ACADEMY.</p>
+            </a>
+
+            <a href="https://github.com/pokimon2178-star" target="_blank" class="project-card">
+                <h3 data-i18n="proj-2-title">Мой GitHub</h3>
+                <p data-i18n="proj-2-desc">Здесь вы найдете мои репозитории, включая Bank Management System на Go.</p>
+            </a>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

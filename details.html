@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Детали проекта | Гарибян Георгий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" data-i18n="nav-about">О себе</a>
+            <a href="projects.html" data-i18n="nav-projects">Проекты</a>
+        </nav>
+        <div class="controls">
+            <button id="lang-toggle">EN</button>
+            <button id="theme-toggle" data-i18n="theme-btn">Сменить тему</button>
+        </div>
+    </header>
+
+    <main class="details-container">
+        <section class="details-card">
+            <h1 data-i18n="det-title">Название проекта: "Веб-портфолио"</h1>
+            <div class="content">
+                <h3 data-i18n="det-goal-label">Цель и суть проекта:</h3>
+                <p data-i18n="det-goal-text">Создание персональной страницы для демонстрации навыков программирования и выполненных работ студента 3 курса.</p>
+                
+                <h3 data-i18n="det-tech-label">Использованные технологии:</h3>
+                <ul class="tech-list">
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript</li>
+                    <li data-i18n="det-tech-adapt">Адаптивная верстка (Flexbox/Grid)</li>
+                </ul>
+            </div>
+            <a href="projects.html" class="btn btn-back" data-i18n="back-btn">« Назад к списку проектов</a>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
